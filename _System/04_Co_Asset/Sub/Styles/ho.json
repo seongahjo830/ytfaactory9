@@ -1,0 +1,8 @@
+{
+  "fontfile": "gungsuh.ttc", // 궁서체 느낌 폰트
+  "fontcolor": "#FF0000",    // 새빨간 색
+  "fontsize": 90,
+  "borderw": 5,
+  "bordercolor": "black",
+  "box": 0
+}

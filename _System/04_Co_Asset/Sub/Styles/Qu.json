@@ -1,0 +1,12 @@
+{
+  "fontfile": "Extrabold.ttf",
+  "fontsize": 70,
+  "fontcolor": "white",
+  "x": "(w-text_w)/2",
+  "y": "(h-text_h)/2",
+  "borderw": 10,
+  "bordercolor": "black",
+  "box": 1
+  "boxborderw": 10
+  "boxcolor": "black@1.0",
+}

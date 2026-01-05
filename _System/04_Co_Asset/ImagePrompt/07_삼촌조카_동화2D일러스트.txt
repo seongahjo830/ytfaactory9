@@ -1,0 +1,12 @@
+**[Top Bun: Style & Setting Setup]**
+A cozy 2D animated illustration in the exact art style and featuring the characters from image_0.png and image_1.png. The friendly uncle (green sweater) and the cute niece (pink dress, ponytail) are sitting together in their warm living room at night. The background city view outside the window is dark with stars and a crescent moon.
+
+**[Meat: Variable Content based on Script/Dialogue]**
+The scene visualizes a discussion about [INSERT ECONOMIC TOPIC HERE, e.g., Stock Market Crash, Inflation, New Technology Boom, Interest Rate Hike].
+Based on their dialogue, the uncle has a [UNCLE'S EXPRESSION, e.g., worried, surprised, happy, confused] expression and is [UNCLE'S ACTION, e.g., pointing at the laptop screen, scratching his head, giving a thumbs up, holding an empty wallet].
+The niece has a [NIECE'S EXPRESSION, e.g., curious, sad, excited, thoughtful] expression and is [NIECE'S ACTION, e.g., tilting her head with a question mark floating above, clapping her hands, holding a piggy bank, looking at a toy catalog].
+The laptop screen glows brightly and clearly displays [DESCRIBE SCREEN CONTENT RELATED TO TOPIC, e.g., a red graph crashing down with jagged lines, a soaring green rocket, a shopping cart icon with a big "$$$" sign, a picture of a central bank building].
+On the table in front of them, besides the coffee cup, there is [OPTIONAL: ADD A RELEVANT PROP, e.g., stacks of play money, a calculator, a newspaper with a headline "CRISIS!", a golden coin].
+
+**[Bottom Bun: Technical Details & Mood]**
+Warm lamp light casting soft shadows, expressive character gestures, highly detailed cartoon rendering, medium shot capturing both characters from the waist up, 16:9 aspect ratio.

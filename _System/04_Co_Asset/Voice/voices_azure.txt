@@ -1,0 +1,62 @@
+호출이름,스타일,성별,ID,속도,피치,설명
+
+# ==========================================
+# [1] 할아버지 10종 (변조 필수)
+# * 봉진(1명)으로 다양한 캐릭터 구현
+# ==========================================
+봉진_회장,General,남성,ko-KR-BongJinNeural,-5%,-5Hz,점잖은 대기업 회장님
+봉진_이장,General,남성,ko-KR-BongJinNeural,+10%,+5Hz,성격 급한 시골 이장님 (버럭)
+봉진_호통,General,남성,ko-KR-BongJinNeural,+20%,+5Hz,화가 잔뜩 난 버럭 할배
+봉진_산신령,General,남성,ko-KR-BongJinNeural,-20%,-10Hz,동굴 목소리 도사/산신령
+봉진_음흉,General,남성,ko-KR-BongJinNeural,0,-8Hz,속을 알 수 없는 흑막 노인
+봉진_병약,General,남성,ko-KR-BongJinNeural,-15%,-2Hz,기운 없고 아픈 할아버지
+봉진_동네,General,남성,ko-KR-BongJinNeural,0,0,변조 없는 봉진 기본 (가장 표준)
+봉진_쇼츠,General,남성,ko-KR-BongJinNeural,+20%,0,[쇼츠용] 봉진 기본 1.2배속
+국민_할배,General,남성,ko-KR-GookMinNeural,-10%,-5Hz,봉진보다 목소리가 얇은 다정 할배 (국민 변조)
+국민_할배_쇼츠,General,남성,ko-KR-GookMinNeural,+10%,-5Hz,[쇼츠용] 다정 할배 1.2배속
+
+# ==========================================
+# [2] 할머니 5종 (변조 필수)
+# * 순복(1명)으로 다양한 캐릭터 구현
+# ==========================================
+순복_기본,General,여성,ko-KR-SoonBokNeural,0,0,변조 없는 순복 기본 (푸근함)
+순복_쇼츠,General,여성,ko-KR-SoonBokNeural,+20%,0,[쇼츠용] 순복 기본 1.2배속
+순복_욕쟁이,General,여성,ko-KR-SoonBokNeural,+10%,+5Hz,시장통 목소리 큰 할머니
+순복_마녀,General,여성,ko-KR-SoonBokNeural,-10%,-5Hz,무섭고 심술궂은 마녀/계모
+순복_병약,General,여성,ko-KR-SoonBokNeural,-15%,-2Hz,기운 없는 할머니
+
+# ==========================================
+# [3] 남성 5종 (순정 위주)
+# ==========================================
+인준_기본,General,남성,ko-KR-InJoonNeural,0,0,표준 남성. 신뢰감 1티어 (뉴스/다큐)
+인준_쇼츠,General,남성,ko-KR-InJoonNeural,+20%,0,[쇼츠용] 인준 1.2배속
+국민_기본,General,남성,ko-KR-GookMinNeural,0,0,부드러운 옆집 오빠/스윗한 톤
+철수_기본,General,남성,ko-KR-CheolSuNeural,0,0,담백한 20대 청년
+봉진_기본,General,남성,ko-KR-BongJinNeural,0,0,중후한 목소리 (회장님 기본)
+
+# ==========================================
+# [4] 여성 5종 (순정 위주)
+# ==========================================
+선희_기본,General,여성,ko-KR-SunHiNeural,0,0,표준 아나운서 (가장 또렷함)
+지민_기본,General,여성,ko-KR-JiMinNeural,0,0,브이로그 최적화 (가장 부드러움)
+연우_기본,General,여성,ko-KR-YeonWooNeural,0,0,차분한 새벽 감성
+서현_기본,General,여성,ko-KR-SeoHyeonNeural,0,0,발랄한 20대/아이돌 느낌
+선희_쇼츠,General,여성,ko-KR-SunHiNeural,+20%,0,[쇼츠용] 선희 1.2배속
+
+# ==========================================
+# [5] 아기/어린이 5종 (유진 변조)
+# * 유진이 한 명으로 남자/여자/아기 다 만듭니다.
+# ==========================================
+유진_기본,General,여성,ko-KR-YuJinNeural,0,0,7살 여자아이 표준 (또랑또랑)
+유진_남자,General,여성,ko-KR-YuJinNeural,0,-5Hz,7살 남자아이 (피치를 낮춰서 남자로 만듦)
+유진_아기,General,여성,ko-KR-YuJinNeural,-10%,+10Hz,3-4살 혀 짧은 아기 (피치 높이고 느리게)
+유진_울음,General,여성,ko-KR-YuJinNeural,-15%,0,칭얼거리고 우는 아이 (느리게)
+유진_쇼츠,General,여성,ko-KR-YuJinNeural,+20%,0,[쇼츠용] 어린이 목소리 1.2배속
+
+# ==========================================
+# [6] 선희 전용 공식 연기 (보너스)
+# ==========================================
+선희_뉴스,News,여성,ko-KR-SunHiNeural,0,0,뉴스 앵커 톤
+선희_상담,CustomerService,여성,ko-KR-SunHiNeural,0,0,상담원 톤
+선희_슬픔,Sad,여성,ko-KR-SunHiNeural,0,0,슬픈 톤
+선희_기쁨,Cheerful,여성,ko-KR-SunHiNeural,0,0,기쁜 톤

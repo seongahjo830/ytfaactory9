@@ -1,0 +1,2 @@
+python KenBurns.py
+pause

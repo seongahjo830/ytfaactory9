@@ -1,0 +1,12 @@
+**[Top Bun: New Style & Setting Setup]**
+A modern, clean infographic animation style with a digital, flat design aesthetic, distinct from the previous cozy 2D look. The characters are stylized versions of the uncle and niece from image_0.png, rendered with bold outlines and vibrant, clean colors. They are standing inside an immersive, dark-mode virtual data environment glowing with neon blues, purples, and greens. The background features abstract flowing graphs, interconnected nodes, and digital city skylines made of data bars.
+
+**[Meat: Variable Content based on Script/Dialogue]**
+The scene visualizes a dynamic analysis of [INSERT ECONOMIC TOPIC HERE, e.g., The Fed's Interest Rate Decision, A specific Big Tech Stock Rally, Global Supply Chain Crisis].
+Based on their discussion, the uncle has a [UNCLE'S EXPRESSION, e.g., confident, analyzing, serious] expression and is interactively [UNCLE'S ACTION, e.g., "touching" a large holographic screen, swiping a data point aside, pointing to a towering bar graph].
+The niece has a [NIECE'S EXPRESSION, e.g., amazed, curious, enthusiastic] expression and is looking at [NIECE'S ACTION, e.g., smaller floating data icons orbiting her, a digital projection on the floor, a tablet showing a simplified chart].
+The main large holographic display between them clearly shows a stylized visualization of [DESCRIBE MAIN SCREEN CONTENT, e.g., a giant gavel hitting a percentage sign, a rocket ship marked 'TSLA' taking off, a tangled knot of shipping containers and arrows].
+Floating around them are smaller digital icons representing [OPTIONAL: ADD RELEVANT ICONS, e.g., up/down arrows, currency symbols ($, €, ¥), gears, lightbulbs].
+
+**[Bottom Bun: Technical Details & Mood]**
+Glowing neon lighting emanating from the data visualizations, energetic and futuristic mood, clean digital rendering, medium-wide shot showing character interaction with the environment, 16:9 aspect ratio.

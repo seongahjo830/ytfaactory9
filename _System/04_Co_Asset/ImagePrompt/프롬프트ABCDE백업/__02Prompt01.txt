@@ -1,0 +1,88 @@
+import random
+
+# ==========================================
+# 1. 고정된 캐릭터 및 스타일 정의 (변경 X)
+# ==========================================
+BASE_STYLE = """
+**Style & Characters (Fixed):**
+A 2D cartoon illustration in the playful, slightly chaotic webtoon style of '배터리쇼'.
+* **Brother (물린자):** The passionate, often sweaty male character in a black 'TESLA' cap and dark t-shirt. He is emotionally volatile regarding stocks.
+* **Sister (여동생):** The cynical, grounded female character with long brown hair, usually holding her 'NOT AGAIN' mug. She acts as the foil to his madness.
+"""
+
+# ==========================================
+# 2. 랜덤하게 선택될 구도(Composition) 정의
+# ==========================================
+# A타입: 표준 데스크샷 (가장 무난함)
+COMPOSITION_A = """
+**COMPOSITION A: The Standard Desk Setup.**
+Medium shot. Both characters are sitting side-by-side at their computer desk. The central monitor is the key visual element reacting to the script.
+"""
+
+# B타입: 극적인 얼빡샷 (감정 극대화)
+COMPOSITION_B = """
+**COMPOSITION B: Extreme Dramatic Close-up.**
+Split-screen intense close-ups on their faces. Focus entirely on their exaggerated facial expressions and eyes reacting to the dialogue. Background is abstract mood lines (red/blue).
+"""
+
+# C타입: 난장판 와이드샷 (상황/행동 강조)
+COMPOSITION_C = """
+**COMPOSITION C: The Chaotic Wide Shot.**
+Wider view showing the entire messy room beyond the desk. Shows full-body posture, physical actions (slumping, dancing, restraining), and the surrounding environment (ramen cups, scattered papers, wall charts).
+"""
+
+# 구도 리스트
+compositions = [COMPOSITION_A, COMPOSITION_B, COMPOSITION_C]
+
+
+# ==========================================
+# 3. 마스터 프롬프트 생성 함수
+# ==========================================
+def create_master_prompt(script_text):
+    # 랜덤으로 구도 하나 선택
+    selected_composition = random.choice(compositions)
+
+    # 최종 프롬프트 조합
+    master_prompt = f"""
+{BASE_STYLE}
+
+{selected_composition}
+
+**DYNAMIC INSTRUCTION (CRITICAL):**
+Analyze the following script dialogue/situation to determine the emotional tone.
+**INPUT SCRIPT: "{script_text}"**
+
+Based on the script's tone, dictate the characters' actions and the environment details *within the selected COMPOSITION above*.
+
+* **IF TONE IS "DELUSIONAL HOPE / MANIC JOY" (행복회로):**
+    * Brother looks ecstatically happy, drooling, eyes sparkling with dollar signs, pointing upwards.
+    * Sister looks extremely annoyed, rolling eyes towards the ceiling, facepalming.
+    * Background/Monitor shows excessive red upward arrows, rockets, money bags, "떡상" text. Bright, warm lighting.
+
+* **IF TONE IS "TOTAL DESPAIR / FRUSTRATION / PANIC" (좌절/공포):**
+    * Brother looks devastated, crying rivers of tears, soul leaving his body, dark circles under eyes, slumped over.
+    * Sister looks pitying, angry, or frightened, perhaps trying to stop him from clicking the mouse.
+    * Background/Monitor shows steep blue downward crash graphs, shattered screens, rain clouds, "한강각" text. Dark, gloomy lighting.
+
+* **IF TONE IS "NEUTRAL / EXPLANATORY" (정보 전달):**
+    * Brother is trying to look serious while explaining, pointing at data, but still sweating nervously.
+    * Sister is skeptical, cross-checking on her phone or looking doubtfully at him.
+    * Monitor shows complex, confusing technical charts or news headlines.
+"""
+    return master_prompt
+
+
+# ==========================================
+# 4. 사용 예시 (테스트용)
+# ==========================================
+
+# 예시 스크립트 1 (행복회로)
+script1 = "오빠: '봤냐?! 앨런 머스크 형님이 트윗 올렸다! 이건 무조건 3배 간다는 신호야! 풀대출 땡겨!'"
+print("--- [프롬프트 예시 1 생성 결과] ---")
+print(create_master_prompt(script1))
+print("\n" + "="*50 + "\n")
+
+# 예시 스크립트 2 (좌절)
+script2 = "오빠: (힘없는 목소리) '어... 왜 계좌가 파란색이지? -70%? 이거 앱 오류 맞지? 여동생아 나 좀 꼬집어봐...'"
+print("--- [프롬프트 예시 2 생성 결과] ---")
+print(create_master_prompt(script2))

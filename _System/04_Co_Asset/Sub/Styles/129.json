@@ -1,0 +1,8 @@
+{
+  "fontcolor": "#FFD700",  // 쨍한 노란색
+  "fontfile": "TmonMonsori.ttf"
+  "fontsize": 80,
+  "borderw": 8,            // 두꺼운 테두리
+  "bordercolor": "black",
+  "box": 0                 // 박스 없음
+}

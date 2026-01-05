@@ -1,0 +1,8 @@
+{
+  "fontcolor": "white",
+  "fontfile": "NanumBarunpenB.ttf"
+  "fontsize": 50,
+  "borderw": 2,            // 아주 얇게 윤곽만
+  "bordercolor": "gray@0.5",
+  "box": 0
+}

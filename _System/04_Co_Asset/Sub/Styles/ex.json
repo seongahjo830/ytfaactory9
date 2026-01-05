@@ -1,0 +1,9 @@
+{
+  "fontcolor": "white",
+  "fontfile": "Pretendard-Bold.ttf"
+  "fontsize": 45,
+  "box": 1,
+  "boxcolor": "black@0.6", // 60% 투명도 검은 박스
+  "boxborderw": 15,        // 박스 여백 넉넉히
+  "y": "h-120"             // 하단 배치
+}

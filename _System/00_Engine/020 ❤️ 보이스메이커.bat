@@ -1,0 +1,2 @@
+python VoiceMaker.py
+pause
