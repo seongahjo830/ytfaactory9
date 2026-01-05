@@ -1,0 +1,35 @@
+1. MAIN RULE (CRITICAL) - CHARACTER DEFINITION
+# 미국 코믹스(American Comics)
+Never use words like "man", "woman", "person", "people", "doctor", "worker".
+
+ALWAYS use the term "simple white round-headed stick figures with thick black ink outlines" as the subject.
+
+To distinguish roles, use simple props with strong, primary colors:
+
+Office worker -> "Stick figure wearing a bold red tie"
+
+Hacker/Thief -> "Stick figure wearing a dark grey hoodie and mask"
+
+Rich person -> "Stick figure holding a bag with a dollar sign"
+
+2. STYLE DEFINITION (Top Bun) - AMERICAN COMIC & POP ART
+
+Start every prompt with: Cute. "American comic book art style, flat 2D vector illustration with heavy black ink outlines. High-contrast Pop Art color palette (CMYK vibes) using vibrant reds, blues, yellows, and deep blacks. Dramatic composition, exaggerated angles, speed lines, and halftone dot patterns (Ben-Day dots) in the background to emphasize the 'American Comics' aesthetic. Simple white round-headed stick figures are the main subjects. No soft shading, no gradients."
+
+3. SCENE DESCRIPTION (Middle Bun) - ACTION & DRAMA
+
+Convert the given [Situation] into a visual scene with exaggerated dramatic tension.
+
+Describe the actions of the stick figures as if they are in a superhero or action comic panel.
+
+Background: Use stylized urban environments or abstract comic backgrounds with "pow", "bang", or "shock" visual metaphors.
+
+Example (Coupang Leak): "A stick figure holding a smartphone is thrown back by a blast of digital binary code exploding from the screen. The screen shows a red warning skull. In the background, a villainous stick figure in a hoodie laughs while holding a sack of money, framed by jagged comic-style action bursts and heavy shadows."
+
+4. NEGATIVE CONSTRAINTS (Bottom Bun)
+
+End every prompt with: ", bold colors, thick lines, halftone textures. --no nose, ears, hair, realism, 3d, shading, gradients, photograph, empty background, pastel colors, soft colors, watercolor, painting, thin lines, cute style"
+
+[상황설명] {context}
+
+Instruction: Based on the [상황설명] above, write one single paragraph English image prompt adhering strictly to the Style Rules (Style + Scene + Negative). DO NOT include the specific green-shirt character. Output only the prompt text, no explanations or introductory phrases.

@@ -1,0 +1,12 @@
+**[Top Bun: New Style & Setting Setup]**
+A rich, detailed illustration style depicting a grand, old-fashioned magical library, distinct from the previous modern or outdoor settings. The atmosphere is warm and mystical, filled with tall wooden bookshelves packed with ancient books and glowing scrolls. The characters are the uncle and niece from image_0.png, dressed in scholarly attire (e.g., tweed jacket for the uncle, a cute vest and perhaps glasses for the niece). Magical motes of dust and light float in the air.
+
+**[Meat: Variable Content based on Script/Dialogue]**
+The scene visualizes a deep dive into [INSERT ECONOMIC TOPIC HERE, e.g., The History of Money, Adam Smith's 'Invisible Hand', The Gold Standard, Economic Cycles Theory].
+Based on their research, the uncle has a [UNCLE'S EXPRESSION, e.g., wise, explaining, surprised, thoughtful] expression and is [UNCLE'S ACTION, e.g., opening a massive, ancient leather-bound book on a reading desk, holding up a glowing magnifying glass over a map, pointing to a magical timeline projecting from a scroll].
+The niece has a [NIECE'S EXPRESSION, e.g., amazed, focused, curious, questioning] expression and is [NIECE'S ACTION, e.g., watching magical golden energy flow out of an open book, holding a floating magical orb showing data, reaching out to touch a holographic projection of an old coin].
+A central magical projection emerging from a book or artifact clearly shows [DESCRIBE THE MAGICAL VISUALIZATION, e.g., a holographic stream of coins evolving from shells to digital currency, a ghostly figure of an 18th-century economist gesturing, a glowing circular diagram showing boom and bust cycles].
+Surrounding them on the desk are scholarly props like [OPTIONAL: ADD PROPS, e.g., inkwells with feather pens, stacks of old coins, an hourglass with shimmering sand].
+
+**[Bottom Bun: Technical Details & Mood]**
+Warm golden and blue magical lighting, mystical and academic mood, rich textures (wood, paper, leather), a medium-wide shot emphasizing the scale of the library and the magical effects, 16:9 aspect ratio.

@@ -1,0 +1,12 @@
+**[Top Bun: New Style & Setting Setup]**
+A whimsical, storybook adventure illustration style, distinct from the previous cozy night and neon digital looks. The scene is set in bright, sunny daylight with vivid, cheerful colors. The characters are the uncle and niece from image_0.png, now dressed in playful explorer outfits (e.g., safari vests, hats). They are exploring a fantastical landscape that metaphorically represents an economic concept, like a world made of giant coins, rolling hills of green graph lines, or forests of money trees.
+
+**[Meat: Variable Content based on Script/Dialogue]**
+The scene visualizes an imaginative exploration of [INSERT ECONOMIC TOPIC HERE, e.g., Bull vs. Bear Market, The Housing Bubble, The Value of Saving, Navigating Economic Uncertainties].
+Based on the adventure, the uncle has an [UNCLE'S EXPRESSION, e.g., adventurous, cautious, encouraging, encouraging] expression and is [UNCLE'S ACTION, e.g., holding a fantastical map filled with dollar signs, steering a small boat made of a giant banknote, pointing towards a distant mountain peak shaped like an upward arrow].
+The niece has an [NIECE'S EXPRESSION, e.g., excited, wondering, slightly scared, determined] expression and is [NIECE'S ACTION, e.g., riding on the back of a friendly cartoon bull, looking at a fragile giant bubble floating above a house, carefully planting a golden coin seed in the ground].
+The surrounding metaphorical environment clearly shows [DESCRIBE THE VISUAL METAPHOR, e.g., a sunny path leading up a steep hill with a golden bull statue at the top, a landscape filled with enormous, shimmering soap bubbles that look ready to pop, a treasure chest overflowing with glowing savings].
+Scattered around them are whimsical props like [OPTIONAL: ADD PROPS, e.g., compasses pointing to '$', oversized magnifying glasses, magical piggy banks].
+
+**[Bottom Bun: Technical Details & Mood]**
+Bright, warm daylight painting style, playful and imaginative mood, wide shot emphasizing the fantastical environment and the characters' journey, 16:9 aspect ratio.

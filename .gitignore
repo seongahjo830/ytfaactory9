@@ -1,0 +1,48 @@
+# API Keys and Secrets
+_System/02_Key/
+**/KeyKey*.txt
+service_account.json
+**/service_account.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Output files (large media files)
+*.mp4
+*.mp3
+*.png
+*.jpg
+*.jpeg
+
+# Large executables
+ffmpeg.exe
+ffprobe.exe
+*.exe
+
+# Logs
+*.log
+autopipeline_log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.zip
+*.bak
+*~
+

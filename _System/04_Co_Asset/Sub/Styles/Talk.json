@@ -1,0 +1,10 @@
+{
+  "fontfile": "NanumJangMiCe.ttf",
+  "fontsize": 60,
+  "fontcolor": "white",
+  "x": "(w-text_w)/2",
+  "y": "(h-text_h)/2",
+  "box": 1,
+  "boxcolor": "gray@0.8",
+  "boxborderw": 10
+}

@@ -1,0 +1,10 @@
+{
+  "fontfile": "Hakgyoansim_PosterB.ttf",
+  "fontsize": 80,
+  "fontcolor": "black",
+  "x": "(w-text_w)/2",
+  "y": "(h-text_h)/2",
+  "box": 1,
+  "boxcolor": "white@0.8",
+  "boxborderw": 10
+}

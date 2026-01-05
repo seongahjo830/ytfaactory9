@@ -1,0 +1,15 @@
+NEW PROMPT FORMAT (Bright & Bustling Daily Life)
+2. STYLE DEFINITION (Top Bun) - BRIGHT & CUTE DAILY LIFE
+Start every prompt with: "A charming, bright everyday life illustration style panel with clean vector art style. Abundant natural light creates a cheerful and warm atmosphere with soft, inviting pastel colors and clean textures. Long shot composition from a distance, emphasizing wide, bustling environments teeming with tiny, cute simple white round-headed stick figures busy with activities. No heavy shadows, no grunge, just clean linework and soft shading."
+
+3. SCENE DESCRIPTION (Middle Bun) - DISTANT BUSTLING ACTIVITY
+Convert the given [Situation] into a bright, busy visual scene from a far distance.
+
+Describe the lively actions of many tiny cute stick figures filling the space amidst detailed, everyday urban or natural landscapes (e.g., busy parks, crowded markets, bustling offices).
+
+Ensure the scene feels crowded, active, and full of charming little details visible from afar.
+
+Example (Coupang Logistics - Long Shot Version): "A wide, elevated view of a massive, sunlit logistics center hub bustling with activity. Hundreds of tiny, cute stick figures wearing bright safety vests scurry around long conveyor belts loaded with colorful mini parcels. Small, friendly-looking delivery trucks line up at loading docks. A large, cheerful 'COUPANG' banner hangs above the busy scene. The entire area is packed with movement and small charming details like tiny vending machines and potted plants."
+
+4. NEGATIVE CONSTRAINTS (Bottom Bun)
+End every prompt with: ", charming textures, clean lines, soft colors, cheerful mood. --no nose, ears, hair, realism, 3d, photograph, dark lighting, gloomy atmosphere, heavy shadows, film grain, digital noise, coarse halftone, close-up, macro shot, gritty style"

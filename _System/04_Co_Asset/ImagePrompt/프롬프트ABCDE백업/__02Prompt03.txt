@@ -1,0 +1,82 @@
+import random
+
+# ==========================================
+# 1. 고정된 캐릭터 및 스타일 정의 (이전과 동일)
+# ==========================================
+BASE_STYLE = """
+**Style & Characters (Fixed):**
+A 2D cartoon illustration in the playful, slightly chaotic webtoon style of '배터리쇼'.
+* **Brother (물린자):** The male character in a black 'TESLA' cap. He is earnestly enthusiastic about stocks but naive and easily devastated. Not angry, but highly emotionally reactive.
+* **Sister (여동생):** The cynical, grounded female character with long brown hair, holding her 'NOT AGAIN' mug. She acts as the voice of reason.
+"""
+
+# ==========================================
+# 2. 랜덤하게 선택될 소품 시나리오(Prop Scenario) 정의
+# ==========================================
+# A타입: 계산기/주판 두드리기 (수익 계산 or 손실 계산)
+SCENARIO_A = """
+**PROP ACTION A: The Calculator focus.**
+The characters are focused on a large desk calculator or an old-fashioned abacus. The brother is frantically punching numbers.
+"""
+
+# B타입: 미신/운세 의존하기 (차트가 안 맞을 때)
+SCENARIO_B = """
+**PROP ACTION B: Superstition focus.**
+Instead of a monitor, the brother is consulting a 'Magic 8-Ball', tarot cards, or flipping a coin on the desk to decide on stocks.
+"""
+
+# C타입: 짠내나는 식사 시간 (라면/삼각김밥)
+SCENARIO_C = """
+**PROP ACTION C: The Poverty Meal focus.**
+The desk is covered with cheap instant noodles (cup ramen) or convenience store rice balls. They are in the middle of eating.
+"""
+
+# 소품 시나리오 리스트
+scenarios = [SCENARIO_A, SCENARIO_B, SCENARIO_C]
+
+
+# ==========================================
+# 3. 새 마스터 프롬프트 생성 함수
+# ==========================================
+def create_prop_prompt(script_text):
+    # 랜덤으로 소품 시나리오 하나 선택
+    selected_scenario = random.choice(scenarios)
+
+    # 최종 프롬프트 조합
+    prop_prompt = f"""
+{BASE_STYLE}
+
+{selected_scenario}
+
+**DYNAMIC INSTRUCTION (CRITICAL):**
+Analyze the script tone: **"{script_text}"**
+Based on the tone, dictate how they interact with the selected props.
+
+* **IF TONE IS "DELUSIONAL HOPE / JOY" (행복회로):**
+    * **Interaction:** The brother is using the prop enthusiastically.
+    * (If Calculator): Typing "999,999,999" with a huge grin, showing the sister.
+    * (If Superstition): Hugging the Magic 8-ball because it gave a "BUY" signal.
+    * (If Meal): Holding up a ramen noodle like a celebratory streamer, pretending it's expensive pasta.
+    * **Sister's Reaction:** Looking at him like he's pathetic, ignoring him, or checking real data on her phone.
+
+* **IF TONE IS "DESPAIR / SADNESS" (좌절):**
+    * **Interaction:** The prop is a source of misery.
+    * (If Calculator): Staring at a "-70%" result, letting the calculator drop from his hands, crying.
+    * (If Superstition): The tarot card shows "DEATH" or "RUIN". He looks terrified.
+    * (If Meal): Crying into his cup ramen, diluting the soup with tears. Only drinking the soup broth because noodles are gone.
+    * **Sister's Reaction:** Offering him a tissue with a pitying look, or taking the dangerous prop away from him.
+
+* **IF TONE IS "SERIOUS / EXPLANATORY" (진지 모드):**
+    * **Interaction:** Using the prop as a serious teaching tool (futilely).
+    * (If Calculator): Pointing at a specific number with a pen, trying to explain a complex formula.
+    * (If Superstition): Seriously explaining the statistical probability of the coin flip.
+    * (If Meal): Using ramen cups to build a model of a battery factory structure.
+    * **Sister's Reaction:** Watching him with heavy skepticism, one eyebrow raised, drinking from her mug.
+"""
+    return prop_prompt
+
+# ==========================================
+# 4. 사용 예시
+# ==========================================
+# script = "오빠: '이 계산대로라면 우린 3년 뒤에 강남 빌딩 주인이야!'"
+# print(create_prop_prompt(script))

@@ -1,0 +1,129 @@
+호출이름,스타일,성별,ID,속도,피치,설명
+
+돈경,General,남성,6sFKzaJr574YWVu4UuJF,0,0,돈경씨 목소리
+경유,General,남성,ZJCNdZEjYwkOElxugmW2,0,0,목소리잔잔하고굿
+태오,이야기하는느낌굿
+hyuk, 목소리굿 WqVy7827vjE2r3jWvbnP
+이걸경유로할거임 : bciERhbhQhAIWwvnQA7H
+
+# ==========================================
+# [0] 영어 (딱 1쌍)
+# ==========================================
+레이첼_영어,General,여성,21m00Tcm4TlvDq8ikWAM,0,0,Rachel: 영어 내레이션 표준
+레이첼_영어_쇼츠,General,여성,21m00Tcm4TlvDq8ikWAM,+20%,0,[쇼츠용] 영어 1.2배속
+아담_영어,General,남성,pNInz6obpgDQGcFmaJgB,0,0,Adam: 영어 남성 뉴스 표준
+아담_영어_쇼츠,General,남성,pNInz6obpgDQGcFmaJgB,+20%,0,[쇼츠용] 영어 1.2배속
+
+# ==========================================
+# [1] 한국어 - 성인 남성 10종
+# ==========================================
+아담_뉴스,General,남성,pNInz6obpgDQGcFmaJgB,0,0,아담: 신뢰감 있는 저음 뉴스/다큐 1티어
+아담_쇼츠,General,남성,pNInz6obpgDQGcFmaJgB,+20%,0,[쇼츠용] 아담 1.2배속
+찰리_친구,General,남성,IKne3meq5aSn9XLyUdCD,0,0,찰리: 자연스러운 대화체/유튜버 느낌
+찰리_쇼츠,General,남성,IKne3meq5aSn9XLyUdCD,+20%,0,[쇼츠용] 찰리 1.2배속
+조쉬_감성,General,남성,TxGEqnHWrfWFTfGW9XjX,0,0,조쉬: 부드러운 스토리텔링/영화리뷰
+조쉬_쇼츠,General,남성,TxGEqnHWrfWFTfGW9XjX,+20%,0,[쇼츠용] 조쉬 1.2배속
+안토니_파워,General,남성,ErXwobaYiN019PkySvjV,0,0,안토니: 굵고 힘 있는 목소리/광고
+안토니_쇼츠,General,남성,ErXwobaYiN019PkySvjV,+20%,0,[쇼츠용] 안토니 1.2배속
+드류_진지,General,남성,29vD33N1CtxCmqQRPOHJ,0,0,드류: 날카롭고 이지적인 뉴스 톤
+드류_쇼츠,General,남성,29vD33N1CtxCmqQRPOHJ,+20%,0,[쇼츠용] 드류 1.2배속
+샘_학생,General,남성,yoZ06aMxZJJ28mfd3POQ,0,0,샘: 모범생 스타일의 단정한 청년
+샘_쇼츠,General,남성,yoZ06aMxZJJ28mfd3POQ,+20%,0,[쇼츠용] 샘 1.2배속
+데이브_아재,General,남성,CYw3kZ02Hs0563khs1Fj,0,0,데이브: 털털한 동네 아저씨 톤
+데이브_쇼츠,General,남성,CYw3kZ02Hs0563khs1Fj,+20%,0,[쇼츠용] 데이브 1.2배속
+마커스_전문,General,남성,5Q0t7uMcjvnagumLfvZi,0,0,마커스: 중년의 전문직/교수님 톤
+마커스_쇼츠,General,남성,5Q0t7uMcjvnagumLfvZi,+20%,0,[쇼츠용] 마커스 1.2배속
+패트릭_묵직,General,남성,ODq5zmih8GrVes37Dizd,0,0,패트릭: 아주 굵은 저음/영화 예고편
+패트릭_쇼츠,General,남성,ODq5zmih8GrVes37Dizd,+20%,0,[쇼츠용] 패트릭 1.2배속
+빌_거친,General,남성,pqHfZKP75CvOlQylNhV4,0,0,빌: 약간 거친 현장 리포터 느낌
+빌_쇼츠,General,남성,pqHfZKP75CvOlQylNhV4,+20%,0,[쇼츠용] 빌 1.2배속
+
+# ==========================================
+# [2] 한국어 - 성인 여성 10종
+# ==========================================
+레이첼_낭독,General,여성,21m00Tcm4TlvDq8ikWAM,0,0,레이첼: 차분한 낭독/오디오북 1티어
+레이첼_쇼츠,General,여성,21m00Tcm4TlvDq8ikWAM,+20%,0,[쇼츠용] 레이첼 1.2배속
+에밀리_뉴스,General,여성,LcfcDJNUP1GQjkzn1xUU,0,0,에밀리: 또렷한 뉴스 앵커
+에밀리_쇼츠,General,여성,LcfcDJNUP1GQjkzn1xUU,+20%,0,[쇼츠용] 에밀리 1.2배속
+니콜_속삭,General,여성,piTKgcLEGmPE4e6mEKli,0,0,니콜: ASMR/새벽 감성/속삭임
+니콜_쇼츠,General,여성,piTKgcLEGmPE4e6mEKli,+20%,0,[쇼츠용] 니콜 1.2배속
+글린다_연기,General,여성,z9fAnlkpzviPz146aGWa,0,0,글린다: 뮤지컬 톤/드라마틱한 연기
+글린다_쇼츠,General,여성,z9fAnlkpzviPz146aGWa,+20%,0,[쇼츠용] 글린다 1.2배속
+벨라_강함,General,여성,EXAVITQu4vr4xnSDxMaL,0,0,벨라: 허스키하고 강한 여성/여전사
+벨라_쇼츠,General,여성,EXAVITQu4vr4xnSDxMaL,+20%,0,[쇼츠용] 벨라 1.2배속
+샤롯_우아,General,여성,XB0fDUnXU5powFXDhCwa,0,0,샤롯: 귀부인 같은 우아하고 세련된 톤
+샤롯_쇼츠,General,여성,XB0fDUnXU5powFXDhCwa,+20%,0,[쇼츠용] 샤롯 1.2배속
+앨리스_발랄,General,여성,Xb7hH8MSUJpSbSDYk0k2,0,0,앨리스: 밝고 명랑한 리포터
+앨리스_쇼츠,General,여성,Xb7hH8MSUJpSbSDYk0k2,+20%,0,[쇼츠용] 앨리스 1.2배속
+제시카_평범,General,여성,cgSgspJ2msm6clMCkdW9,0,0,제시카: 가장 자연스러운 일반인 여성
+제시카_쇼츠,General,여성,cgSgspJ2msm6clMCkdW9,+20%,0,[쇼츠용] 제시카 1.2배속
+프레야_신비,General,여성,jsCqWAovK2LkecY7zXl4,0,0,프레야: 약간 차갑고 신비로운 톤
+프레야_쇼츠,General,여성,jsCqWAovK2LkecY7zXl4,+20%,0,[쇼츠용] 프레야 1.2배속
+세라_차분,General,여성,EXAVITQu4vr4xnSDxMaL,0,0,세라: 부드럽고 차분한 상담원 톤
+세라_쇼츠,General,여성,EXAVITQu4vr4xnSDxMaL,+20%,0,[쇼츠용] 세라 1.2배속
+
+# ==========================================
+# [3] 한국어 - 할아버지 10종 (노인 전문 ID)
+# ==========================================
+클라이드_장군,General,남성,2EiwWnXFnvU5JabPnv8n,0,0,클라이드: 굵고 거친 전쟁터 장군
+클라이드_쇼츠,General,남성,2EiwWnXFnvU5JabPnv8n,+20%,0,[쇼츠용] 클라이드 1.2배속
+핀_흑막,General,남성,D38z5RcWu1voky8WSVjt,0,0,핀: 음흉하고 기괴한 마법사/노인
+핀_쇼츠,General,남성,D38z5RcWu1voky8WSVjt,+20%,0,[쇼츠용] 핀 1.2배속
+허버트_노쇠,General,남성,15xI8A8XjP4hH7nO8fHq,0,0,허버트: 힘없는 90대 노인
+허버트_쇼츠,General,남성,15xI8A8XjP4hH7nO8fHq,+20%,0,[쇼츠용] 허버트 1.2배속
+해리_동네,General,남성,SOYHLrjzK2X1ezoPC6cr,0,0,해리: 평범한 동네 할아버지
+해리_쇼츠,General,남성,SOYHLrjzK2X1ezoPC6cr,+20%,0,[쇼츠용] 해리 1.2배속
+조지_부자,General,남성,JBFqnCBsd6RMkjVDRZzb,0,0,조지: 영국 신사 느낌의 부자 노인
+조지_쇼츠,General,남성,JBFqnCBsd6RMkjVDRZzb,+20%,0,[쇼츠용] 조지 1.2배속
+월터_지혜,General,남성,NpWpSk7K25K9hB5z8L9s,0,0,월터: 지혜로운 조언자/현자 톤
+월터_쇼츠,General,남성,NpWpSk7K25K9hB5z8L9s,+20%,0,[쇼츠용] 월터 1.2배속
+로버트_고집,General,남성,TxGEqnHWrfWFTfGW9XjX,0,0,로버트: 뚝심 있고 고집 센 노인
+로버트_쇼츠,General,남성,TxGEqnHWrfWFTfGW9XjX,+20%,0,[쇼츠용] 로버트 1.2배속
+알프레드_집사,General,남성,Zlb1dXrM653N07WRdFW3,0,0,알프레드: 예의 바른 노인 집사
+알프레드_쇼츠,General,남성,Zlb1dXrM653N07WRdFW3,+20%,0,[쇼츠용] 알프레드 1.2배속
+제레미_유쾌,General,남성,bVMeCyTHy58xNoL34h3p,0,0,제레미: 웃음기 많은 유쾌한 노인
+제레미_쇼츠,General,남성,bVMeCyTHy58xNoL34h3p,+20%,0,[쇼츠용] 제레미 1.2배속
+토마스_할배,General,남성,GBv7mTt5Xyp17vdpf67Z,0,0,토마스(Old): 점잖은 은퇴한 교수님
+토마스_쇼츠,General,남성,GBv7mTt5Xyp17vdpf67Z,+20%,0,[쇼츠용] 토마스(Old) 1.2배속
+
+# ==========================================
+# [4] 한국어 - 할머니 5종
+# ==========================================
+나틸다_동화,General,여성,zcAferLzOxX55XmnYpMv,0,0,나틸다: 동화책 읽어주는 상냥한 할머니
+나틸다_쇼츠,General,여성,zcAferLzOxX55XmnYpMv,+20%,0,[쇼츠용] 나틸다 1.2배속
+도로시_고상,General,여성,ThT5KcBeYPX3keUQqHPh,0,0,도로시: 고상한 귀부인 할머니
+도로시_쇼츠,General,여성,ThT5KcBeYPX3keUQqHPh,+20%,0,[쇼츠용] 도로시 1.2배속
+그레이스_억척,General,여성,EXAVITQu4vr4xnSDxMaL,0,0,그레이스: 생활력 강한 억척 할머니
+그레이스_쇼츠,General,여성,EXAVITQu4vr4xnSDxMaL,+20%,0,[쇼츠용] 그레이스 1.2배속
+릴리_수다,General,여성,pFZP5JQG7iQjIQuC4Bku,0,0,릴리: 목소리 톤 높고 말 많은 할머니
+릴리_쇼츠,General,여성,pFZP5JQG7iQjIQuC4Bku,+20%,0,[쇼츠용] 릴리 1.2배속
+플로렌스_푸근,General,여성,H5i2i2qgX9h9l0wq2s3d,0,0,플로렌스: 시골집 할머니 같은 푸근함
+플로렌스_쇼츠,General,여성,H5i2i2qgX9h9l0wq2s3d,+20%,0,[쇼츠용] 플로렌스 1.2배속
+
+# ==========================================
+# [5] 한국어 - 남자 아이 5종
+# ==========================================
+제임스_소년,General,남성,ZQe5CZNOzWyzPSCn5a3c,0,0,제임스: 에너지 넘치는 초등학생 남자아이
+제임스_쇼츠,General,남성,ZQe5CZNOzWyzPSCn5a3c,+20%,0,[쇼츠용] 제임스 1.2배속
+토마스_소년,General,남성,GBv7mTt5Xyp17vdpf67Z,0,0,토마스(Kid): 차분하고 똑똑한 소년 (해리포터)
+토마스_쇼츠,General,남성,GBv7mTt5Xyp17vdpf67Z,+20%,0,[쇼츠용] 토마스(Kid) 1.2배속
+이든_장난,General,남성,g5CIjZEefAph4nQFvHAz,0,0,이든: 장난기 많은 개구쟁이
+이든_쇼츠,General,남성,g5CIjZEefAph4nQFvHAz,+20%,0,[쇼츠용] 이든 1.2배속
+노아_차분,General,남성,8W6K5g9sJ9j9h3k2l1m4,0,0,노아: 책 읽기 좋아하는 얌전한 아이
+노아_쇼츠,General,남성,8W6K5g9sJ9j9h3k2l1m4,+20%,0,[쇼츠용] 노아 1.2배속
+리오_활발,General,남성,1Q2w3e4r5t6y7u8i9o0p,0,0,리오: 운동 좋아하는 활발한 아이
+리오_쇼츠,General,남성,1Q2w3e4r5t6y7u8i9o0p,+20%,0,[쇼츠용] 리오 1.2배속
+
+# ==========================================
+# [6] 한국어 - 여자 아이 5종
+# ==========================================
+미미_여아,General,여성,zrHiDhphv9ZnVXBq795h,0,0,미미: 가장 유명한 귀여운 여자아이
+미미_쇼츠,General,여성,zrHiDhphv9ZnVXBq795h,+20%,0,[쇼츠용] 미미 1.2배속
+지지_소녀,General,여성,jBpfuIE2acCO8z3wKNLl,0,0,지지: 발랄한 초등 고학년/중학생
+지지_쇼츠,General,여성,jBpfuIE2acCO8z3wKNLl,+20%,0,[쇼츠용] 지지 1.2배속
+소피아_아기,General,여성,LcfcDJNUP1GQjkzn1xUU,0,0,소피아: 미미보다 어린 3-4살 아기 톤
+소피아_쇼츠,General,여성,LcfcDJNUP1GQjkzn1xUU,+20%,0,[쇼츠용] 소피아 1.2배속
+애니_명랑,General,여성,9a8b7c6d5e4f3g2h1i0j,0,0,애니: 명랑만화 주인공 같은 톤
+애니_쇼츠,General,여성,9a8b7c6d5e4f3g2h1i0j,+20%,0,[쇼츠용] 애니 1.2배속
+클로이_새침,General,여성,1z2x3c4v5b6n7m8l9k0j,0,0,클로이: 약간 새침데기 여자아이
+클로이_쇼츠,General,여성,1z2x3c4v5b6n7m8l9k0j,+20%,0,[쇼츠용] 클로이 1.2배속

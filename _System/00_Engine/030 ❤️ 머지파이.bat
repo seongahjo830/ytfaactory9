@@ -1,0 +1,2 @@
+python Mergy.py
+pause

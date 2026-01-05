@@ -1,0 +1,35 @@
+🚀 유튜브 황금 주제 발굴기 실행 방법
+
+1️⃣ 필요한 패키지 설치
+   터미널(명령 프롬프트 또는 PowerShell)에서 실행:
+   
+   pip install -r requirements.txt
+
+2️⃣ 앱 실행
+   터미널에서 실행:
+   
+   streamlit run main.py
+   
+   또는
+   
+   python -m streamlit run main.py
+
+3️⃣ 브라우저에서 확인
+   실행하면 자동으로 브라우저가 열립니다.
+   주소: http://localhost:8501
+
+4️⃣ API 키 입력
+   - 사이드바에 YouTube Data API v3 키 입력
+   - KeyKey1.txt 파일에 있는 키 중 하나 사용 가능:
+     * AIzaSyBG1FScYQ6A8WBRV7VadtvrnPDjjmgiG5o (유튜브 사용자인증키)
+     * AIzaSyCUiGokLJuIIplwM80y1gVywUOMubkVb5Y (유튜브 api검색키)
+
+5️⃣ 검색 시작
+   - 검색 키워드 입력
+   - "검색 실행" 버튼 클릭
+   - 결과 확인!
+
+💡 팁
+   - 앱을 종료하려면 터미널에서 Ctrl + C 누르기
+   - 브라우저가 자동으로 안 열리면 http://localhost:8501 직접 입력
+
