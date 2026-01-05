@@ -22,6 +22,11 @@ ENV/
 *.jpg
 *.jpeg
 
+# Large executables
+ffmpeg.exe
+ffprobe.exe
+*.exe
+
 # Logs
 *.log
 autopipeline_log.txt
