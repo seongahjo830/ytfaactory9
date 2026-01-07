@@ -1,0 +1,10 @@
+ "Create a clean 1:1 square illustration with NO text and NO speech bubbles. Ensure the subject is centered."
+
+A cinematic ultra-realistic vertical 9:16 portrait. 
+The subject is placed strictly in the center of the frame. 
+Close-up shot focusing on intense facial expressions. 
+High contrast lighting with dramatic shadows (Chiaroscuro style). 
+The top 25% and bottom 25% of the frame are kept simple with a dark, blurred background to provide space for subtitles and UI. 
+8k resolution, highly detailed skin textures, sharp focus on eyes. 
+[상황설명]
+"IMPORTANT: 1. Do NOT include any text, captions, or speech bubbles. 2. Create a 1:1 SQUARE composition. 3. The subject must be a 'Medium Shot', strictly centered. 4. Maintain a clean and simple background."

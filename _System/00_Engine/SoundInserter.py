@@ -99,7 +99,8 @@ def find_sound_file(sound_name):
     if not sound_name or not sound_name.strip():
         return None, False
     
-    sound_name = sound_name.strip()
+    # 공백 제거 및 정규화 (보이지 않는 문자 제거)
+    sound_name = sound_name.strip().replace('\ufeff', '').replace('\u200b', '')
     
     # 확장자가 없으면 .mp3, .wav 등을 시도
     if not os.path.splitext(sound_name)[1]:
@@ -113,19 +114,38 @@ def find_sound_file(sound_name):
         if os.path.exists(sound_path):
             return sound_path, False
     
-    # Sound 폴더에서 대소문자 무시 검색
+    # Sound 폴더에서 대소문자 무시 검색 (한글 포함)
     all_files = []
     for ext in ['*.mp3', '*.wav', '*.m4a', '*.ogg']:
         all_files.extend(glob.glob(os.path.join(SOUND_DIR, ext)))
         all_files.extend(glob.glob(os.path.join(SOUND_DIR, ext.upper())))
     
+    # 시트에서 읽은 이름 정규화 (공백, 특수문자 제거)
+    sound_name_normalized = sound_name.replace(' ', '').replace('　', '').replace('\ufeff', '').replace('\u200b', '')  # 일반 공백, 전각 공백, BOM, 제로 너비 공백 제거
+    sound_name_base = os.path.splitext(sound_name_normalized)[0]
+    
     for file_path in all_files:
         file_name = os.path.basename(file_path)
-        base_name_no_ext = os.path.splitext(sound_name)[0].lower()
-        file_name_no_ext = os.path.splitext(file_name)[0].lower()
+        file_name_base = os.path.splitext(file_name)[0]
         
-        if base_name_no_ext == file_name_no_ext:
+        # 정확한 매칭 (대소문자 무시)
+        if sound_name_base.lower() == file_name_base.lower():
             return file_path, False
+        
+        # 공백 제거 후 매칭 (한글 파일명의 공백 처리)
+        file_name_no_space = file_name_base.replace(' ', '').replace('　', '')
+        if sound_name_base.lower() == file_name_no_space.lower():
+            return file_path, False
+        
+        # 부분 매칭: 시트 이름이 파일명에 포함되거나 파일명이 시트 이름에 포함되는 경우
+        if sound_name_base.lower() in file_name_base.lower() or file_name_base.lower() in sound_name_base.lower():
+            # 숫자로 시작하는 경우 숫자 부분도 일치하는지 확인 (예: "2.상큼뿅" vs "2.상큼뿅.mp3")
+            if sound_name_base and file_name_base:
+                # 숫자 부분 추출
+                sound_num = ''.join(filter(str.isdigit, sound_name_base))
+                file_num = ''.join(filter(str.isdigit, file_name_base))
+                if sound_num and file_num and sound_num == file_num:
+                    return file_path, False
     
     # 2차: BGM 폴더에서 검색 (배경음악)
     for candidate in candidates:
@@ -141,11 +161,25 @@ def find_sound_file(sound_name):
     
     for file_path in bgm_files:
         file_name = os.path.basename(file_path)
-        base_name_no_ext = os.path.splitext(sound_name)[0].lower()
-        file_name_no_ext = os.path.splitext(file_name)[0].lower()
+        file_name_base = os.path.splitext(file_name)[0]
         
-        if base_name_no_ext == file_name_no_ext:
+        # 정확한 매칭 (대소문자 무시)
+        if sound_name_base.lower() == file_name_base.lower():
             return file_path, True
+        
+        # 공백 제거 후 매칭
+        file_name_no_space = file_name_base.replace(' ', '').replace('　', '')
+        if sound_name_base.lower() == file_name_no_space.lower():
+            return file_path, True
+        
+        # 부분 매칭: 시트 이름이 파일명에 포함되거나 파일명이 시트 이름에 포함되는 경우
+        if sound_name_base.lower() in file_name_base.lower() or file_name_base.lower() in sound_name_base.lower():
+            # 숫자로 시작하는 경우 숫자 부분도 일치하는지 확인
+            if sound_name_base and file_name_base:
+                sound_num = ''.join(filter(str.isdigit, sound_name_base))
+                file_num = ''.join(filter(str.isdigit, file_name_base))
+                if sound_num and file_num and sound_num == file_num:
+                    return file_path, True
     
     return None, False
 
@@ -261,6 +295,7 @@ def create_sound_mix_command(final_video, timings, output_path, sound_volume=0.1
             start_time = timing["start_time"]
             is_bgm = timing.get("is_bgm", False)
             
+            # adelay는 밀리초 단위로 작동 (스테레오: 채널1|채널2)
             delay_ms = int(start_time * 1000)  # 초를 밀리초로 변환
             
             if is_bgm:
@@ -268,12 +303,12 @@ def create_sound_mix_command(final_video, timings, output_path, sound_volume=0.1
                 # atrim: 0부터 15초까지 자르기
                 # afade: 마지막 6초 페이드아웃 (9초부터 15초까지)
                 # volume: 30% 볼륨
-                # adelay: 시작 시간 딜레이
+                # adelay: 시작 시간 딜레이 (밀리초 단위, 스테레오 지원)
                 filter_parts.append(
                     f"[{input_idx}:a]atrim=0:15,afade=t=out:st=9:d=6,volume={bgm_volume},adelay={delay_ms}|{delay_ms}[s{idx}]"
                 )
             else:
-                # 효과음 처리: 기존 로직 (볼륨 조절 + 딜레이)
+                # 효과음 처리: 볼륨 조절 + 딜레이 (밀리초 단위, 스테레오 지원)
                 filter_parts.append(
                     f"[{input_idx}:a]volume={sound_volume},adelay={delay_ms}|{delay_ms}[s{idx}]"
                 )
@@ -441,15 +476,30 @@ def main():
     if g_column_count > 0:
         print(f"📊 G열(duration) 사용: {g_column_count}개 클립 (더 정확한 타임스탬프)")
     
-    # 디버깅: K열 값 확인
+    # 디버깅: K열 값 확인 및 실제 파일 목록 출력
     print(f"\n🔍 [디버깅] K열 효과음/BGM 파일명 확인:")
+    
+    # 실제 Sound 폴더의 파일 목록 출력
+    if os.path.exists(SOUND_DIR):
+        sound_files = []
+        for ext in ['*.mp3', '*.wav', '*.m4a', '*.ogg']:
+            sound_files.extend(glob.glob(os.path.join(SOUND_DIR, ext)))
+        if sound_files:
+            print(f"📁 Sound 폴더에 있는 파일 목록:")
+            for sf in sorted(sound_files)[:10]:
+                print(f"   - {os.path.basename(sf)}")
+            if len(sound_files) > 10:
+                print(f"   ... (총 {len(sound_files)}개 파일)")
+    
     for t in timings[:10]:  # 처음 10개만 출력
         if t["sound_file"]:
             file_type = "🎵 BGM" if t.get("is_bgm", False) else "🔊 효과음"
             print(f"  [{t['id']}] K열: '{t['sound_name']}' → ✅ {file_type}")
             print(f"       → 파일: {os.path.basename(t['sound_file'])}")
         else:
-            print(f"  [{t['id']}] K열: '{t['sound_name']}' → ❌ 없음")
+            # 더 자세한 디버깅 정보 출력
+            sound_name_repr = repr(t['sound_name']) if t['sound_name'] else "''"
+            print(f"  [{t['id']}] K열: '{t['sound_name']}' → ❌ 없음 (repr: {sound_name_repr})")
     if len(timings) > 10:
         print(f"  ... (나머지 {len(timings) - 10}개 생략)")
     

@@ -1,0 +1,20 @@
+{
+  "fontfile": "TheJamsil5Bold.ttf",
+  "fontsize": 60,
+  "fontcolor": "white",
+  "x": "(w-text_w)/2",
+  "y": 100,
+  "box": 1,
+  "boxcolor": "black@1.0",
+  "boxborderw": 10
+}
+{
+  "fontfile": "TheJamsil5Bold.ttf",
+  "fontsize": 40,
+  "fontcolor": "white",
+  "x": "(w-text_w)/2",
+  "y": 180,
+  "box": 1,
+  "boxcolor": "black@1.0",
+  "boxborderw": 10
+}

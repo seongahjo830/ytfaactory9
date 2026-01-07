@@ -1,0 +1,11 @@
+ "Create a clean 1:1 square illustration with NO text and NO speech bubbles. Ensure the subject is centered."
+
+A professional product photography style vertical 9:16 shot. 
+Extreme close-up or macro shot of the main object, centered perfectly. 
+Soft bokeh background to make the subject pop. 
+Bright, clean studio lighting. 
+The composition is designed for mobile viewing, ensuring the subject stays within the 'safe zone' (middle 50% of the screen). 
+Top and bottom areas are clear for captions. 
+Hyper-realistic, 4k, clean composition.
+[상황설명]
+"IMPORTANT: 1. Do NOT include any text, captions, or speech bubbles. 2. Create a 1:1 SQUARE composition. 3. The subject must be a 'Medium Shot', strictly centered. 4. Maintain a clean and simple background."
